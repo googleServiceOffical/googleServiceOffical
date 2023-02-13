@@ -1,0 +1,146 @@
+:root {
+    --hrefColor: #1A73E8;
+}
+
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in-card {
+    width: 416px;
+    height: 368px;
+    padding: 48px 40px 88px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    border-radius: 5px;
+}
+
+@media (max-width: 516px) {
+    .sign-in-card {
+    width: 70vw;
+    height: 70vh; 
+    }
+}
+
+.google-icon {
+    max-width: 85px;
+    margin: 0 auto;
+}
+.sign-in-header {
+    margin: -30px auto;
+    font-weight: 500;
+}
+.sign-in-bottomOfHeader {
+    margin: 0 auto;
+    font-weight: 400;
+}
+.sign-in-email-input {
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    border-radius: 4px;
+}
+.forgot-email-btn {
+    text-decoration: none;
+    color: var(--hrefColor);
+    margin-top: -30px;
+    font-size: 15px;
+}
+
+.bottom-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-options button {
+    background-color: var(--hrefColor);
+    border: 0;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.bottom-options button:hover {
+    background-color: #1a73e8c2;
+}
+.bottom-options a {
+    text-decoration: none;
+    color: var(--hrefColor);
+}
+
+
+/* password */
+
+.sign-in-header-pass {
+    margin-top: -150px;
+}
+
+.sign-in-email-pass {
+    margin: 0 auto;
+    font-weight: 500;
+    border: 1px solid grey;
+    padding: 5px 15px;
+    font-size: large;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: -100px;
+}
+.sign-in-email-pass:hover {
+    background-color: rgba(128, 128, 128, 0.096);
+}
+.sign-in-pass-input {
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    border-radius: 4px;
+    margin-top: -140px;
+}
+.tc-p {
+    color: rgb(71, 71, 71);
+    margin-top: -100px;
+}
+.forgot-email-btn {
+    text-decoration: none;
+    color: var(--hrefColor);
+    margin-top: -30px;
+    font-size: 15px;
+}
+
+.bottom-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-options button {
+    background-color: var(--hrefColor);
+    border: 0;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.bottom-options button:hover {
+    background-color: #1a73e8c2;
+}
+.bottom-options a {
+    text-decoration: none;
+    color: var(--hrefColor);
+}
+
+.input-form {
+    display: none;
+}
+
